@@ -30,7 +30,7 @@ public class CustomerController {
 		customerService.customerAdd(customer);
 		agdService.populatingToAgdResources(customer.getCustomerId());
 		
-
+		//Will return the data of customer in JSON format
 		return new ResponseEntity<Customer>(customer, HttpStatus.OK);
 
 	}
