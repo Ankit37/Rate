@@ -1,0 +1,11 @@
+package com.example.tcrating.exception;
+
+public class DataNotFoundException extends RuntimeException {
+
+	public DataNotFoundException(String message) {
+		super(message);
+	
+	}
+
+	
+}
